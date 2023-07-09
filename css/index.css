@@ -32,7 +32,7 @@ nav {
 
 a{
     width: auto;
-    margin: 20px;
+    margin: 5px;
     padding: 10px;
     text-decoration: none;
     border-radius: 1rem;
@@ -69,7 +69,7 @@ a{
 /* INICIO second_part */
 
 .second_part{
-    height: 91vh;
+    height: 92vh;
     display: grid;
     grid-template-columns: 50% auto;
     padding: 0  15% 0 15%;
@@ -97,5 +97,21 @@ a{
 .second_part .theme p{
     font-size: 1.5rem;
 }
-
 /* FIN second_part */
+
+/* INICIO third_part */
+
+.third_part{
+    height: 92vh;
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding: 0  15% 0 15%;
+    align-items: center;
+    border: 1px solid black;
+}
+.theme{
+    display: grid;
+    grid-template-rows: 30% auto;
+}
+
+/* FIN third_part */
