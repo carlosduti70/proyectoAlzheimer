@@ -1,11 +1,24 @@
+:root {
+    
+  --morado: #8C30F5;
+  --lila: #F1E4FF;
+  --gris_claro: #F9FAFC;
+  --blanco: #FFFFFF;
+  --celeste: #E7F0F4;
+  --negro: #18191F;
+  
+
+}
+
 body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--lila);
 }
 
 .form {
-    background-color: #fff;
+    background-color: var(--blanco);
     display: block;
     padding: 1rem;
     max-width: 350px;
@@ -18,7 +31,7 @@ body{
     line-height: 1.75rem;
     font-weight: 600;
     text-align: center;
-    color: #000;
+    color: var(--morado);
   }
   
   .input-container {
@@ -65,7 +78,7 @@ body{
     padding-bottom: 0.75rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    background-color: #4F46E5;
+    background-color: var(--morado);
     color: #ffffff;
     font-size: 0.875rem;
     line-height: 1.25rem;
