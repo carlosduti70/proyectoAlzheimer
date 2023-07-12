@@ -20,7 +20,7 @@
 
 header{
     display: grid;
-    grid-template-columns: 80% auto;
+    grid-template-columns: 80% auto ;
     align-items: center;
     position: fixed;
     height: 6vh;
