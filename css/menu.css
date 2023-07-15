@@ -123,6 +123,17 @@ nav a{
 
 .content_menu{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cont_menu p{
+    font-size: 1.5rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
 }
 /* FIN menu lateral */
 
