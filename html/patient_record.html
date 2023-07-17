@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/patient_record.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>
+                <img src="https://hul.de/wp-content/uploads/sites/16/2021/04/loewensteinmedical_logo.png" alt=""
+                width="100%">
+            </p>
+        </div>
+        <div class="login">
+            
+            <a  href="#" class="one">Support</a>
+            <a  href="#" class="two">Mi cuenta</a>
+            
+        </div>
+    </header>
+
+
+
+    <div class="container-clock">
+        <p id="date">date</p>
+        <h2 id="time">00:00:00</h2>
+        <script src="/javascript/menu_clock.js"></script>
+    </div>
+
+
+
+    <nav>
+        <div class="cont_nav">
+
+            <a href="/menu.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#8C30F5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                </svg>
+            </a>
+            
+            
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#8C30F5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                </svg>
+            </a>
+
+
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google-home" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#8C30F5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M19.072 21h-14.144a1.928 1.928 0 0 1 -1.928 -1.928v-6.857c0 -.512 .203 -1 .566 -1.365l7.07 -7.063a1.928 1.928 0 0 1 2.727 0l7.071 7.063c.363 .362 .566 .853 .566 1.365v6.857a1.928 1.928 0 0 1 -1.928 1.928z" />
+                    <path d="M7 13v4h10v-4l-5 -5" />
+                    <path d="M14.8 5.2l-11.8 11.8" />
+                    <path d="M7 17v4" />
+                    <path d="M17 17v4" />
+                </svg>
+            </a>
+            
+            
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-vocabulary" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#8C30F5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M10 19h-6a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h6a2 2 0 0 1 2 2a2 2 0 0 1 2 -2h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2z" />
+                    <path d="M12 5v16" />
+                    <path d="M7 7h1" />
+                    <path d="M7 11h1" />
+                    <path d="M16 7h1" />
+                    <path d="M16 11h1" />
+                    <path d="M16 15h1" />
+                </svg>
+            </a>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cards" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="#8C30F5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3.604 7.197l7.138 -3.109a.96 .96 0 0 1 1.27 .527l4.924 11.902a1 1 0 0 1 -.514 1.304l-7.137 3.109a.96 .96 0 0 1 -1.271 -.527l-4.924 -11.903a1 1 0 0 1 .514 -1.304z" />
+                    <path d="M15 4h1a1 1 0 0 1 1 1v3.5" />
+                    <path d="M20 6c.264 .112 .52 .217 .768 .315a1 1 0 0 1 .53 1.311l-2.298 5.374" />
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Registro de Paciente</h2>
+        <form>
+
+            <div class="information">
+                <label for="nombre">Nombres:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="information">
+                <label for="nombre">Apellidos:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="information">
+                <label for="nombre">Fecha de nacimiento:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="information">
+                <label for="nombre">Estado civil:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="information">
+                <label for="nombre">Sexo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="information">
+                <label for="nombre">Teléfono:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="information">
+                <label for="nombre">Dirección:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="information">
+                <label for="nombre">Correo electrónico:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+        </form>
+
+        <div class="button">
+            <a  href="#" class="one">Cancelar</a>
+            <a  href="#" class="two">Guardar</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
